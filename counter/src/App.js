@@ -1,10 +1,10 @@
-
-import './App.css';
+import Counter from "./components/Counter/counter"
+import "./App.css"
 
 function App() {
   return (
     <div className="App">
-      <h1>başlıyoruz</h1>
+      <Counter/>
     </div>
   );
 }

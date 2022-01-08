@@ -1,14 +1,3 @@
-# reactClassComponetStateCounter
-class componetlerdeki state yapısını counter yapımıyla öğreneceğiz.
-
-
-
-create-react-app counter
-cd counter
-npm start
-
-## components/Counter/counter.js
-
 import React from 'react'
 
 class Counter extends React.Component {
@@ -66,18 +55,3 @@ class Counter extends React.Component {
 }
 
 export default Counter;
-
-## App.js
-
-import Counter from "./components/Counter/counter"
-import "./App.css"
-
-function App() {
-  return (
-    <div className="App">
-      <Counter/>
-    </div>
-  );
-}
-
-export default App;
